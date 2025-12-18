@@ -1,11 +1,5 @@
-import makeWASocket from './Socket';
-export * from '../WAProto';
-export * from './Utils';
-export * from './Types';
-export * from './Defaults';
-export * from './WABinary';
-export * from './WAM';
-export * from './WAUSync';
-export type WASocket = ReturnType<typeof makeWASocket>;
-export { makeWASocket };
-export default makeWASocket;
+export * from './encode';
+export * from './decode';
+export * from './generic-utils';
+export * from './jid-utils';
+export * from './types';
